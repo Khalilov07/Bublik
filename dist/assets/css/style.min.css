@@ -1,0 +1,145 @@
+header {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header img {
+  width: 150px;
+}
+header a {
+  color: white;
+  margin-right: 40px;
+  font-size: 22px;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+header .header-line {
+  background-color: #f8bb22;
+  height: 100%;
+  width: 20%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: white;
+  background-color: black;
+}
+
+.intro {
+  height: calc(100vh - 80px);
+  display: flex;
+  justify-content: space-between;
+  background-image: url(../images/food.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center right;
+}
+.intro .intro-text {
+  padding-left: 100px;
+  padding-top: 90px;
+}
+.intro h1 {
+  font-size: 144px;
+  font-weight: 900;
+  opacity: 0.7;
+}
+.intro .intro-descr {
+  font-size: 72px;
+  font-weight: 700;
+}
+.intro .intro-line {
+  width: 20%;
+  height: 100%;
+  z-index: -1;
+  background-color: #f8bb22;
+}
+
+.owl-carousel {
+  display: flex;
+  margin-top: 140px;
+}
+
+.branches-text {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.branches-line {
+  height: 100px;
+  width: 25px;
+  margin-right: 30px;
+  background-color: #f8bb22;
+}
+
+.branches-title {
+  font-size: 48px;
+  font-weight: 500;
+}
+
+.branch {
+  width: 25vw;
+  height: 25vw;
+  position: relative;
+  margin-right: 40px;
+  background-image: url(../images/shopokova.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.branch-2 {
+  background-image: url(../images/toktogula.png);
+}
+
+.branch-info {
+  background-color: rgba(248, 187, 34, 0.7);
+  opacity: 0.7;
+  position: absolute;
+  bottom: 0;
+  border-radius: 0px 0px 20px 20px;
+  padding: 20px;
+  font-size: 10px;
+  width: 100%;
+}
+
+.branch-name {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.branch-descr {
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.branch-addres {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.branch-addres-info {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.branch-addres-info .addres-img {
+  width: 20px;
+  margin-right: 10px;
+}
+.branch-addres-info .addres-text {
+  font-size: 14px;
+}
+
+.branch-button {
+  padding: 10px;
+  border: none;
+  border-radius: 100px 0px 0px 100px;
+  color: #f8bb22;
+  margin-left: 94px;
+}

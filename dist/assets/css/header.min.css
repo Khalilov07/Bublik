@@ -1,0 +1,21 @@
+header {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header img {
+  width: 150px;
+}
+header a {
+  color: white;
+  margin-right: 40px;
+  font-size: 22px;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+header .header-line {
+  background-color: #f8bb22;
+  height: 100%;
+  width: 20%;
+}

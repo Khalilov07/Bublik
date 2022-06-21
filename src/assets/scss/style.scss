@@ -1,0 +1,137 @@
+@import './vars.scss';
+@import './header.scss';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: white;
+    background-color: $primary;
+}
+
+.intro {
+    height: calc(100vh - 80px);
+    display: flex;
+    justify-content: space-between;
+    background-image: url(../images/food.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center right;
+
+    .intro-text {
+        padding-left: 100px;
+        padding-top: 90px;
+    }
+    
+    h1 {
+        font-size: 144px;
+        font-weight: 900;
+        opacity: 0.7;
+    }
+
+    .intro-descr {
+        font-size: 72px;
+        font-weight: 700;
+    }
+
+    .intro-line {
+        width: 20%;
+        height: 100%;
+        z-index: -1;
+        background-color: $yellow;
+    }
+} 
+
+.branches {
+    
+}
+
+.owl-carousel {
+    display: flex;
+    margin-top: 140px;
+}
+
+.branches-text {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.branches-line {
+    height: 100px;
+    width: 25px;
+    margin-right: 30px;
+    background-color: $yellow;   
+}
+
+.branches-title {
+    font-size: 48px;
+    font-weight: 500;
+}
+
+.branch {
+    width: 25vw;
+    height: 25vw;
+    position: relative;
+    margin-right: 40px;
+    background-image: url(../images/shopokova.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.branch-2 { 
+    background-image: url(../images/toktogula.png);
+}
+
+.branch-info {
+    background-color: rgba(248, 187, 34, 0.7);
+    opacity: 0.7;
+    position: absolute;
+    bottom: 0;
+    border-radius: 0px 0px 20px 20px;
+    padding: 20px;
+    font-size: 10px;
+    width: 100%;
+}
+
+.branch-name {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.branch-descr {
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.branch-addres {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.branch-addres-info {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+
+    .addres-img {
+        width: 20px;
+        margin-right: 10px;
+    }
+
+    .addres-text {
+        font-size: 14px;
+    }
+    
+}
+
+.branch-button {
+    padding: 10px;
+    border: none;
+    border-radius: 100px 0px 0px 100px;
+    color: $yellow;
+    margin-left: 94px;
+}

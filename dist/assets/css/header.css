@@ -1,0 +1,22 @@
+header {
+    height: 80px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    background-color: transparent;
+}
+
+header img {
+    width: 150px;
+}
+
+header a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
